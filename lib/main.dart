@@ -40,6 +40,31 @@ class MyApp extends StatelessWidget {
                 ),
               ),
             ),
+            const SizedBox(height: 40),
+
+      TextField(
+        decoration: InputDecoration(
+          labelText: "اسم المستخدم",
+          prefixIcon: Icon(Icons.person),
+          border: OutlineInputBorder(
+            borderRadius: BorderRadius.circular(12),
+          ),
+        ),
+      ),
+
+      const SizedBox(height: 20),
+
+      
+      TextField(
+        obscureText: true,
+        decoration: InputDecoration(
+          labelText: "كلمة المرور",
+          prefixIcon: Icon(Icons.lock),
+          border: OutlineInputBorder(
+            borderRadius: BorderRadius.circular(12),
+          ),
+        ),
+      ),
           ],
         ),
       ),
