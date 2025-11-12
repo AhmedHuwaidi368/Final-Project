@@ -28,6 +28,20 @@ class MyApp extends StatelessWidget {
             ),
           ),
         ),
+         body: Column(
+          children: [
+            SizedBox(height: 10), // فراغ بسيط بين ال AppBar وكلمة تسجيل الدخول
+            Center(
+              child: Text(
+                "تسجيل الدخول",
+                style: TextStyle(
+                  fontSize: 24,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
