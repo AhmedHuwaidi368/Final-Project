@@ -15,6 +15,18 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.teal,
+          title: Center(
+            child: Container(
+              margin: EdgeInsets.only(left: 20, right: 30, top: 0, bottom: 0),
+              child: Text(
+                  "Amal App",
+                style: TextStyle(
+                  fontWeight: FontWeight.w500,
+                  color: Colors.white,
+                ),
+              ),
+            ),
+          ),
         ),
       ),
     );
